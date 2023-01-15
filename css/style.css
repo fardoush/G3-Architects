@@ -1,0 +1,271 @@
+ /* 1. FONTS  */
+
+
+/* 2. COMMON CSS  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+}
+
+.container{
+    width:1440px;
+    background: rgb(200, 232, 234);
+}
+/* 3 BUTTON  */
+.button-holder .btn{
+    /* width: 180px;
+    height: 64px; */
+    padding:10px 24px;
+
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+color: #FFFFFF;
+background: #FF900E;
+border-radius: 8px;
+}
+
+/* 4 HEADER  */
+
+header{
+   background:rgba(255, 144, 14, 0.1);
+   height:100px;
+   /* padding:50px 0; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.header-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 53px;
+text-align: center;
+color: #131313;
+
+}
+.nav-inner .nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:30px;
+    flex-wrap: wrap;
+}
+
+.nav-inner .nav .nav-item .nav-link{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 26px;
+text-align: center;
+color: #424242;
+}
+/* 5 main  */
+
+/* 6 BANNER SECTION  */
+.banner-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+/* height: 88vh; */
+padding: 50px 0;
+background:rgba(255, 144, 14, 0.1);
+}
+.banner-inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.banner-content{
+    width:862px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.banner-content h1{
+    
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 75px;
+text-align: center;
+
+/* Dark 01 */
+
+color: #131313;
+}
+.banner-content p{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+text-align: center;
+
+/* Dark 03 */
+
+color: #727272;
+margin-bottom: 32px;
+}
+
+.banner-images-inner img{
+    height:700px;
+}
+
+
+
+/* About Section  */
+.about-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.about-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about-image-gallery {
+    /* display: flex; */
+    /* display: grid; */
+    /* grid-template-rows: repeat(4,2fr); */
+    gap:24px;
+}
+
+.about-image-gallery img{
+    width: 342px;
+height: 342px;
+/* margin: 12px; */
+/* left: 301px; */
+}
+.about-content h2{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 45px;
+line-height: 53px;
+width: 468px;
+/* Dark 03 */
+margin-bottom: 24px;
+color: #727272;
+}
+.about-content h2 .text-black{
+    color:#000000;
+}
+.about-content h2 .orange-clr{
+    color: #FF900E;
+}
+
+
+.about-content  p{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+
+/* Dark 03 */
+
+color: #727272;
+margin-bottom: 32px;
+}
+
+
+
+/* FEATURE SECTION  */
+.feature-section{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.feature-heading h2{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 53px;
+/* identical to box height */
+
+
+/* Dark 01 */
+
+color: #131313;
+
+
+}
+.feature-heading p{
+    
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+
+/* Dark 03 */
+
+color: #727272;
+}
+.feature-inner{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.feature-box{
+    padding: 46px 36px;
+border: 1px solid #FF900E;
+border-radius: 8px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+/* transform: rotate(90deg); */
+}
+/* ==========================
+                 [ RESPONSIVE DESIGN ]
+=============================================== */
+
+@media(max-width:1440px) {
+    header{
+        padding-left:40px;
+        padding-right:40px;
+    }
+    .container{
+        width: 100%;
+    }
+    
+}
+
+
