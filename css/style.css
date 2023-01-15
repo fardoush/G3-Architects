@@ -225,7 +225,7 @@ color: #131313;
 
 }
 .feature-heading p{
-    
+    width: 542px;
 font-family: 'Work Sans';
 font-style: normal;
 font-weight: 400;
@@ -242,9 +242,13 @@ color: #727272;
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    gap: 124px;
+
 }
 .feature-box{
-    padding: 46px 36px;
+    width: 242px;
+    padding: 45px 0;
+    /* padding: 46px 36px; */
 border: 1px solid #FF900E;
 border-radius: 8px;
 display: flex;
@@ -252,6 +256,29 @@ justify-content: center;
 align-items: center;
 flex-direction: column;
 /* transform: rotate(90deg); */
+}
+
+.feature-box .icon img{
+    width: 45px;
+    height: 45px;
+    margin-bottom: 10px;
+}
+.feature-box h4{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 45px;
+line-height: 53px;
+/* identical to box height */
+
+text-align: center;
+
+/* Dark 02 */
+
+color: #424242;
+
+
+    margin-bottom: 5px;
 }
 /* ==========================
                  [ RESPONSIVE DESIGN ]
