@@ -243,6 +243,7 @@ color: #727272;
     justify-content: center;
     align-items: flex-start;
     gap: 124px;
+    padding: 50px;
 
 }
 .feature-box{
@@ -279,6 +280,20 @@ color: #424242;
 
 
     margin-bottom: 5px;
+}
+
+.feature-box h6{
+    
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 23px;
+
+/* Dark 03 */
+
+color: #727272;
+
 }
 /* ==========================
                  [ RESPONSIVE DESIGN ]
