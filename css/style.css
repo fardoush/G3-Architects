@@ -1,5 +1,5 @@
  /* 1. FONTS  */
-
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Work+Sans:wght@400;500;600;700;800;900&display=swap');
 
 /* 2. COMMON CSS  */
 *{
@@ -17,7 +17,7 @@ ul li{
 
 .container{
     width:1440px;
-    background: rgb(200, 232, 234);
+    /* background: rgb(200, 232, 234); */
 }
 /* 3 BUTTON  */
 .button-holder .btn{
@@ -145,6 +145,7 @@ margin-bottom: 32px;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 50px 0;
     flex-wrap: wrap;
 }
 .about-inner{
@@ -199,17 +200,138 @@ color: #727272;
 margin-bottom: 32px;
 }
 
-
-
-/* FEATURE SECTION  */
+/* feature section  */
 .feature-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.feature-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 54px;
+}
+
+
+.feature-contents h2{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    
+    /* Dark 01 */
+    width: 468px;
+    color: #131313;
+    margin-bottom:24px;
+}
+
+.feature-contents p{
+    margin-bottom: 30px;
+    width: 586px;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+
+/* Dark 03 */
+
+color: #727272;
+}
+
+.feature-card   {
+    background: #FFFFFF;
+box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+border-radius: 8px;
+padding: 30px;
+margin-bottom: 20px;
+width: 586px;
+}
+
+
+.feature-card .feature-card-body h6{
+    
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 23px;
+
+/* Dark 01 */
+
+color: #131313;
+margin-bottom: 10px;
+}
+
+
+
+.feature-card .feature-card-body p{
+
+    width: 514px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    
+    
+    /* Dark 03 */
+    
+    color: #727272;
+
+}
+.feature-images-inner{
+    position: relative;
+}
+.feature-img img{
+    height: 982px;
+}
+.experience{
+    /* Rectangle 5 */
+text-align: center;
+padding: 46px 42px;
+position: absolute;
+bottom:-40px;
+left:-80px;
+width: 342px;
+/* height: 200px; */
+/* left: 880px;
+top: 3104px; */
+
+background: #FF900E;
+border-radius: 8px;
+}
+.experience h2{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 65px;
+line-height: 70px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.experience span{
+font-size: 16px;
+color: #FFFFFF;
+}
+
+/* counter SECTION  */
+.counter-section{
 display: flex;
 justify-content: center;
 align-items: center;
 
 }
 
-.feature-heading h2{
+.counter-heading h2{
     font-family: 'Work Sans';
 font-style: normal;
 font-weight: 700;
@@ -224,7 +346,7 @@ color: #131313;
 
 
 }
-.feature-heading p{
+.counter-heading p{
     width: 542px;
 font-family: 'Work Sans';
 font-style: normal;
@@ -238,7 +360,7 @@ line-height: 26px;
 
 color: #727272;
 }
-.feature-inner{
+.counter-inner{
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -246,7 +368,7 @@ color: #727272;
     padding: 50px;
 
 }
-.feature-box{
+.counter-box{
     width: 242px;
     padding: 45px 0;
     /* padding: 46px 36px; */
@@ -259,12 +381,12 @@ flex-direction: column;
 /* transform: rotate(90deg); */
 }
 
-.feature-box .icon img{
+.counter-box .icon img{
     width: 45px;
     height: 45px;
     margin-bottom: 10px;
 }
-.feature-box h4{
+.counter-box h4{
     font-family: 'Work Sans';
 font-style: normal;
 font-weight: 600;
@@ -282,7 +404,7 @@ color: #424242;
     margin-bottom: 5px;
 }
 
-.feature-box h6{
+.counter-box h6{
     
 font-family: 'Work Sans';
 font-style: normal;
@@ -294,6 +416,96 @@ line-height: 23px;
 
 color: #727272;
 
+}
+
+
+/* brand section  */
+.brand-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+.brand-inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.brand-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.brand-content h2{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 53px;
+/* identical to box height */
+
+
+/* Dark 01 */
+
+color: #131313;
+margin-bottom: 24px;
+}
+
+.brand-content p{
+    width: 542px;
+
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+margin-bottom: 50px;
+
+text-align: center;
+}
+
+.brands-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+.brands-images img{
+    width: 140px;
+    height: 50px;
+    opacity: 0.3;
+    /* margin-right: 154px; */
+}
+
+
+/* footer  */
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    
+}
+
+.footer-inner{
+    text-align: center;
+    padding: 38px 0;
+    background: #FFF4E7;
+    border-radius: 8px;
+}
+
+.footer-inner p{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+color: #424242;
 }
 /* ==========================
                  [ RESPONSIVE DESIGN ]
